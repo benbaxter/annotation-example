@@ -1,7 +1,4 @@
-package com.benjamingbaxter.annotation.example;
-
-import com.benjamingbaxter.annotation.example.domain.Animal;
-import com.benjamingbaxter.annotation.example.domain.AnimalKey;
+package com.benjamingbaxter.annotation.example.domain;
 
 @AnimalKey("complex")
 public class ComplexAnimalWithoutANoArgConstructor implements Animal {
