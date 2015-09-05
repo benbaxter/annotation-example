@@ -1,9 +1,6 @@
 # annotation-example
 This is a small example of how to make class level annotations. This also has some small examples of how to leverage some of Java 8's cool new features.
 
-# Purpose
-This project is an example project for using annotations and a few basic featurs in Java 8.
-
 # Setup
 Once you get this java program imported into your IDE (I used intellij to create this project) There is a `com.benjamingbaxter.annotation.example.HelloWorld` class you can run to make sure that the project is setup correctly.
 
