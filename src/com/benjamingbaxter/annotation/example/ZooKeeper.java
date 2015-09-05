@@ -38,6 +38,9 @@ public class ZooKeeper {
         if( optional.isPresent() ) {
             Class<? extends Animal> animalClass = optional.get();
             try {
+                //create an instance of the class assuming that the class has a no-arg constructor
+                //if it does not have a no-arg constructor (like the complex animal) then it will
+                //throw an exception.
                 animal = animalClass.newInstance();
             } catch (InstantiationException | IllegalAccessException  e) {
                 System.out.println("cannot create animal " + animalClass.getSimpleName());
@@ -47,7 +50,7 @@ public class ZooKeeper {
                 //the '()' represents the no-arg function we have, the '->' states do this for the numOfLegs()
                 //method and lastly, since we have a one line method, we can just create our string
                 //and java will know that is the returned value for the numOfLegs() method
-                animal = () -> input + " is not a recognized animal";
+                animal = () -> input + " is not wanting to come out and show us how many legs it has.";
             }
         } else {
             animal = new NullAnimal();

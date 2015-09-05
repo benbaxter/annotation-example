@@ -31,7 +31,7 @@ If you cannot get the program running, hopefully the screen shots can help you f
 #### Complex
 This animal has no default no-arg constructor so it will throw an exception at runtime
 ![complex screen](./screen-shots/complex.png)
-![error screen](./screen-shots/complex-legs.png)
+![error screen](./screen-shots/complex-error.png)
 
 #### Kangaroo
 There are no Kangaroo's in the example, so you will get an error message
