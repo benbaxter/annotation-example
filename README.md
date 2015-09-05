@@ -12,3 +12,29 @@ Look for a `com.benjamingbaxter.annotation.example.ZooKeeper` class. Run this cl
 
 # Screens
 ![starting screen](./screen-shots/start-screen.png)
+
+### Dog
+![dog screen](./screen-shots/dog.png)
+![dog legs screen](./screen-shots/dog-legs.png)
+
+### Dodo
+![dodo screen](./screen-shots/dodo.png)
+![dodo legs screen](./screen-shots/dodo-legs.png)
+
+### Whale
+![whale screen](./screen-shots/whale.png)
+![whale legs screen](./screen-shots/whale-legs.png)
+
+### Complex
+This animal has no default no-arg constructor so it will throw an exception at runtime
+![complex screen](./screen-shots/complex.png)
+![error screen](./screen-shots/complex-legs.png)
+
+### Kangaroo
+There are no Kangaroo's in the example, so you will get an error message
+![kangaroo screen](./screen-shots/kangaroo.png)
+![404 screen](./screen-shots/kangaroo-404.png)
+
+### Quit
+Type quit to exit the program
+![quit screen](./screen-shots/quit.png)
