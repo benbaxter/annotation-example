@@ -11,3 +11,4 @@ Once you get this java program imported into your IDE (I used intellij to create
 Look for a `com.benjamingbaxter.annotation.example.ZooKeeper` class. Run this class in your IDE. You should see an input dialog for you to enter an animal key. You can enter "dog", "dodo", "whale", and "complex" as valid animals. Everything else will give you an error message. 
 
 # Screens
+![starting screen](./screen-shots/start-screen.png)
